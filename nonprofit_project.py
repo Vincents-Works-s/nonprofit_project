@@ -3,6 +3,16 @@
 def intro_message():
     print("Welcome to the Non Profit/Charity donater")
     
+def print_nonprofit():
+    print(gates_foundation)
+    print(spaceX)
+    print(donald_trump)
+    print(dnc)
+    
 def main():
     intro_message()
+    gates_foundation = "Bill and Melinda Gates Foundation: "
+    spaceX = "spaceX: "
+    donald_trump = "Trump Administration: "
+    dnc = "Democratic National Committee: "
 main()
