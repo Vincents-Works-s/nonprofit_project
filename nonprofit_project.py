@@ -8,6 +8,7 @@ def print_nonprofit():
     print(spaceX)
     print(donald_trump)
     print(dnc)
+    print("Which foundation would you like to donate to? ")
     
 def main():
     intro_message()
