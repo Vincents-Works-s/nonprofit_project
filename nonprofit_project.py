@@ -1,19 +1,36 @@
-#steps: 
-	#1. welcome the user using a unique Intro Message (use a function for this)
 def intro_message():
-    print("Welcome to the Non Profit/Charity donater")
+    print("Welcome to the Non Profit/Charity Donater")
     
 def print_nonprofit():
-    print(gates_foundation)
-    print(spaceX)
-    print(donald_trump)
-    print(dnc)
-    print("Which foundation would you like to donate to? ")
+    gates_foundation_amount = 0
+    spaceX_amount = 0
+    trump_amount = 0
+    dnc_amount = 0
+    
+    print(f"Bill and Melinda Gates Foundation: {gates_foundation_amount}")
+    print(f"spaceX: {spaceX_amount}")
+    print(f"Trump Administration: {trump_amount}")
+    print(f"Democratic National Committee: {dnc_amount}")
+    foundation = input("Which foundation would you like to donate to? ")
+    amount = input("How much would you like to donate? ")
+    
+    if foundation == "Bill and Meilinda Gates Foundation":
+        gates_foundation_amount = amount
+    elif foundation == "spaceX":
+        spaceX_amount = amount
+    elif foundation == "Trump Administration":
+        trump_amount = amount
+    elif foundation == "Democratic National Committee":
+        dnc = amount
+    else:
+        print("Error not found")
     
 def main():
     intro_message()
-    gates_foundation = "Bill and Melinda Gates Foundation: "
-    spaceX = "spaceX: "
-    donald_trump = "Trump Administration: "
-    dnc = "Democratic National Committee: "
+    
+    print("""
+    """)
+    
+    print_nonprofit()
+    
 main()
