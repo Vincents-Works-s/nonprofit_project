@@ -7,10 +7,10 @@ def print_nonprofit():
     trump_amount = 0
     dnc_amount = 0
     
-    print(f"Bill and Melinda Gates Foundation: {gates_foundation_amount}")
-    print(f"spaceX: {spaceX_amount}")
-    print(f"Trump Administration: {trump_amount}")
-    print(f"Democratic National Committee: {dnc_amount}")
+    print(f"1) Bill and Melinda Gates Foundation: ${gates_foundation_amount}")
+    print(f"2) spaceX: ${spaceX_amount}")
+    print(f"3) Trump Administration: ${trump_amount}")
+    print(f"4) Democratic National Committee: ${dnc_amount}")
     foundation = input("Which foundation would you like to donate to? ")
     amount = input("How much would you like to donate? ")
     
